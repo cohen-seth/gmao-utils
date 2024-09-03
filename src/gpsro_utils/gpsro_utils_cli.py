@@ -7,6 +7,7 @@ import click
 
 import gpsro_utils #obs_inv_utils
 import config_handlers
+from bufr_utils import sinv
 
 @click.group()
 def cli():
@@ -14,7 +15,7 @@ def cli():
 
 @cli.command()
 #@click.option('-c', '--config-yaml', 'config_yaml', required=True, type=str)
-@click.option('-f', '--bufr-file', required=True, type=str)
-def get_obs_inventory(config_yaml):
-    return get_obs_inventory_base(config_yaml)
+@click.option('-f', '--bufr-file', 'bufr', required=True, type=str)
+def sinv(bufr):
+    return sinv_base(bufr)
 
