@@ -27,4 +27,14 @@ def get_file_list(rootdir):#,suffix):
                 if i == 5: break
     return(sorted(filelist))    #print(sorted(filelist))
 
+# merge_bufr_code_table_c ~ merges satid names from NCEPLIBS-bufr Bufr Code Table C 
+def merge_bufr_code_table_c(dataframe):
+    # Merge the Bufr SAID codes ~ add names for satid's
+    BufrCodes = pd.read_csv('BufrTableC')
+    BufrCodes['SAID'] = BufrCodes['SAID'].astype(float).astype(int)
+    BufrCodes['kx'] = BufrCodes['SAID'].abs().astype(int)
+    dataframe['kx'] = dataframe['satid'].astype(int)
+    dataframe = dataframe.merge(BufrCodes, how = 'outer', on = 'kx')
+    dataframe = dataframe[~dataframe['bendingAngle'].isna()]
+    return(dataframe)
 

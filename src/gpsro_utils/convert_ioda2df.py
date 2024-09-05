@@ -3,7 +3,7 @@ from netCDF4 import Dataset
 import pandas as pd
 import subprocess
 from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
-from file_utils import get_file_list
+from file_utils import get_file_list,merge_bufr_code_table_c
 
 #data = nc.Dataset("gdas1_spnasa.220101.t00z.gpsro.tm00.ioda.nc4", mode='r')
 #files_ioda = ["gdas1_spnasa.220101.t00z.gpsro.tm00.ioda.nc4"]
@@ -50,7 +50,10 @@ def nc_to_df(files_ioda):
         print(i)
         df_all = pd.concat([df_all,df])
         print(f' Progress: {round(j/len(files_ioda)*100)}%')
-        return(df_all)
+   print(f' Now merging satid names from Bufr Code Table C...')
+   # merge satid names from Bufr Code Table C
+   df_all = merge_bufr_code_table_c(df_all)
+   return(df_all)
 
 
 
