@@ -2,7 +2,15 @@
 import os
 import sys
 import subprocess
-from config_handlers.discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
+from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
+
+
+# 1. generate a list of files within the given directory ----------------------------------------------------------------
+    # path = '/discover/nobackup/sicohen/Data/gmao/bufr/AMSUA/Y2020/'
+    # rootdir = sys.argv[1]
+    # 'filelist' with be the list of bufr files that is returned (to then be used as input for the inventory tool)
+    # loop over directory and all it's subdirectories, list whats in there but dont print everything, return only bufr files account for files name with extensions '.bufr' and '.bufr_d'
+
 
 def get_file_list(rootdir):#,suffix):
     i = 0 

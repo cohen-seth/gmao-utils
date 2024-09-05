@@ -34,6 +34,7 @@ FILLER_LINE = 'filler_line'
 # Call and Run the NCEPLIBS-bufr sinv util
 bufr_file = sys.argv[1]
 output = subprocess.run(
+    #['$NCEPLIBS/sinv', bufr_file],
     ['sinv', bufr_file],
     capture_output = True, # Python >= 3.7 only
     text = True # Python >= 3.7 only

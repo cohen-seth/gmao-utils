@@ -8,7 +8,8 @@
 # Load Jedi First ~ need ioda converters from IODACONV and PYIODA. 
 # ------------------------
 set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
-source $gmao_utils_dir/LoadJedi.csh
+source $gmao_utils_dir/load_jedi.sh
+source $gmao_utils_dir/load_nceplibs_bufr.sh
 
 # ------------------------
 # Create env variables and directories that gmao_utils uses
@@ -38,13 +39,17 @@ set iodadir = "$outdir/iodadir"
 #ml ~ LoadJedi does this already
 pip list
 echo "\n"
-echo " --- The following variables have been set to these respective paths: ------------------------------"
+echo " --- The following variables have been set to these respective paths: ------------------------------ \n"
 echo "gmao_utils_dir="$gmao_utils_dir
 echo "gmao_utils_src="$gmao_utils_src
 echo "BufrTableC="$BufrTableC
 echo "wrkdir="$wrkdir
 echo "outdir="$outdir
 echo "GPSRO_SPIRE_reanalysis="$GPSRO_SPIRE_reanalysis
+echo "\n"
+echo "--- NCEPLIBS ---"
+echo "NCEPLIBS_latest_build=" $NCEPLIBS_latest_build
+echo "NCEPLIBS=" $NCEPLIBS
 echo "\n"
 
 echo " You have successfully loaded gmao_utils python package. \n  --- HOWEVER ---, you should ensure that all paths are correct before proceeding.\n"

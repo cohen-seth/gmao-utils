@@ -11,26 +11,9 @@ import sys
 import pandas as pd
 import subprocess
 from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
+from file_utils import get_file_list
 
-# 1. generate a list of files within the given directory ----------------------------------------------------------------
-    # path = '/discover/nobackup/sicohen/Data/gmao/bufr/AMSUA/Y2020/'
-    # rootdir = sys.argv[1]
-    # 'filelist' with be the list of bufr files that is returned (to then be used as input for the inventory tool)
-    # loop over directory and all it's subdirectories, list whats in there but dont print everything, return only bufr files account for files name with extensions '.bufr' and '.bufr_d'
-def get_file_list(rootdir):#,suffix):
-    i = 0
-    filelist = []
-    for subdir, dirs, files in os.walk(rootdir):
-        print(f"{dirs}")
-        print(f"----{subdir}")
-        for idx, file in enumerate(files):
-            if file.endswith(".bufr_d"):
-                print (f"--------- {os.path.join(subdir, file)}")
-                filepath = subdir + os.sep + file
-                filelist.append(filepath)
-                i+=1
-                if i == 5: break
-    return(sorted(filelist))    #print(sorted(filelist))
+
 
 # user input in cli (a path to where the files you want to convert are in) ~  '/discover/nobackup/sicohen/Data/gmao/bufr/AMSUA/Y2020/M01'
 rootdir=sys.argv[1]
@@ -49,16 +32,16 @@ for file in files:
     dates = "20" + parts[1]
     #parts = (".").join(parts)
     parts[-1] = "ioda.nc4"
-    ioda_subdir = iodadir + ("/").join(rootdir.split("/")[-3:])
-    print(ioda_subdir)
-    ioda_filename = iodadir + "/" + (".").join(parts)
+    ioda_subdir = iodadir + "/" + ("/").join(rootdir.split("/")[-3:])
+    ioda_filename = ioda_subdir + "/" + (".").join(parts)
     x = ["gnssro_bufr2ioda", dates, file, ioda_filename]
-    #files_ioda.append((ioda_filename))
     print(x)
     subprocess.run(['mkdir','-p',ioda_subdir])
     subprocess.run(x)
     print(f' Progress: {round(i/len(files)*100)}%')
-    i+=1 #y.append((x))
+    i+=1 
+    #files_ioda.append((ioda_filename))    
+    #y.append((x))
     
     
     

@@ -4,6 +4,7 @@
 
 # Format of the output from NCEPLIBS-bufr sinv util
 
+import sys
 import subprocess
 #import config_handlers.discover_config #import gpsro_tools_dependencies
 #from config.obs_inv_utils_nceplibs_cmd_sinv import validate_args,get_sat_id,get_sat_id_name,get_obs_count,get_sat_inst_id,get_sat_inst_dsc,get_line_type 
@@ -31,6 +32,7 @@ FILLER_LINE = 'filler_line'
 #TestDataFile = "/discover/nobackup/sicohen/Data/testing/gpsro/gdas1_spnasa.220101.t00z.gpsro.tm00.bufr_d"
 #bufr_file = gpsro_tools_dependencies.TestBufrFile
 
+bufr_file = sys.argv[1]
 # Call and Run the NCEPLIBS-bufr sinv util
 output = subprocess.run(
     ['sinv', bufr_file],

@@ -1,0 +1,17 @@
+module purge
+module use /discover/swdev/gmao_SIteam/modulefiles-SLES12
+module use /discover/swdev/jcsda/spack-stack/scu16/modulefiles
+module load miniconda/3.9.7
+module load ecflow/5.8.4
+module use /gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/envs/ue-intel-2021.6.0/install/modulefiles/Core
+module load stack-intel/2021.6.0
+module load stack-intel-oneapi-mpi/2021.6.0
+module load stack-python/3.10.13
+module load jedi-fv3-env
+module load soca-env
+module load gmao-swell-env/1.0.0
+module unload gsibec crtm
+module unload gsibec crtm bufr
+#module unload /gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/envs/ue-intel-2021.6.0/install/modulefiles/intel/2021.6.0/bufr/12.0.1.lua 
+#/gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/envs/ue-intel-2021.6.0/install/intel/2021.6.0/bufr-12.0.1-r2df42d/bin
+ 
