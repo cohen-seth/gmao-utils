@@ -163,3 +163,4 @@ cython_debug/
 
 # working directory
 wrkdir/
+src/tests/*.bufr_d
