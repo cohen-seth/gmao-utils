@@ -4,10 +4,13 @@
 # Seth Cohen (GMAO/SSAI)
 # Environment Requirements
 
+# EDIT THIS LINE ONLY (directory where you cloned gmao_utils):
+set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
+
+
 # ------------------------
 # Load Jedi First ~ need ioda converters from IODACONV and PYIODA. 
 # ------------------------
-set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
 source $gmao_utils_dir/LoadJedi.csh
 source $gmao_utils_dir/load_nceplibs_bufr.sh
 
@@ -15,7 +18,6 @@ source $gmao_utils_dir/load_nceplibs_bufr.sh
 # Create env variables and directories that gmao_utils uses
 # ------------------------
 # directory where gmao_utils is installed
-set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils" # need to rerun this line from before b/c LoadJedi includes a purge.
 set gmao_utils_src = "$gmao_utils_dir/src"
 
 # directory with bufr files
