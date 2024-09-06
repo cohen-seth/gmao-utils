@@ -50,12 +50,13 @@ def nc_to_df(files_ioda):
         print(i)
         df_all = pd.concat([df_all,df])
         print(f' Progress: {round(j/len(files_ioda)*100)}%')
-   print(f' Now merging satid names from Bufr Code Table C...')
-   # merge satid names from Bufr Code Table C
-   df_all = merge_bufr_code_table_c(df_all)
-   return(df_all)
+        print(f' Now merging satid names from Bufr Code Table C...')
+        # merge satid names from Bufr Code Table C
+        df_all = merge_bufr_code_table_c(df_all)
+        return(df_all)
 
 
 
 df = nc_to_df(files_ioda)
+df = merge_bufr_code_table_c(df)
 print(f'{df.head()}')
