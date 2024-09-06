@@ -6,7 +6,7 @@ NASA/GMAO. Tools for working with  data files in both BUFR and IODA (JEDI) forma
 # Setting up your environment
 Step 1: git clone https://github.com/cohen-seth/gmao-utils.git
 
-Step 2: Next, you must change the variable 'gmao_utils_dir' in the config_gmao_utils.sh file. Change it to the path where you have cloned gmao-utils.
+Step 2: Next, you must change the variable 'gmao_utils_dir' in the config_gmao_utils.zsh or config_gmao_utils.csh file depending on what you use. Change it to the path where you have cloned gmao-utils.
 
 Then, inspect and verify LoadJedi.sh. You should NOT need to edit this file. It should point to a current build of the JEDI IODA CONVERTERS.
 
