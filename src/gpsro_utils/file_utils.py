@@ -2,6 +2,7 @@
 import os
 import sys
 import subprocess
+import pandas as pd
 from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
 
 
@@ -24,7 +25,7 @@ def get_file_list(rootdir):#,suffix):
                 filepath = subdir + os.sep + file
                 filelist.append(filepath)
                 i+=1
-                if i == 32: break # stop after a month
+                #if i == 32: break
     return(sorted(filelist))    #print(sorted(filelist))
 
 # merge_bufr_code_table_c ~ merges satid names from NCEPLIBS-bufr Bufr Code Table C 

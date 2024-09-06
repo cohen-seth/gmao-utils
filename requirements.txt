@@ -1,0 +1,100 @@
+appdirs==1.4.4
+attrs @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-attrs-21.4.0-oxnmciayu26dyzq34xxvqkbkurak5y5h/spack-src
+boto3 @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-boto3-1.26.26-3v7rn3caye5f4gx7kt2khwyboprcf5jl/spack-src
+botocore @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-botocore-1.29.84-pvp2paxbnhl4resromgcv3jectxlphn3/spack-src
+Bottleneck @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-bottleneck-1.3.7-62zzs7f6rcdnacvvupejsxoahizbfonb/spack-src
+brotlipy==0.7.0
+CacheControl @ file:///Users/ktietz/demo/mc3/conda-bld/cachecontrol_1629143824253/work
+cachy @ file:///Users/ktietz/demo/mc3/conda-bld/cachy_1629144064963/work
+Cartopy @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-cartopy-0.21.1-6llhfrjgkskujnedm6wkrimzfdgps3rp/spack-src
+certifi @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-certifi-2023.7.22-gclfvtpbxddl7nr76qzy6eo6pn7whs7k/spack-src
+cffi @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-cffi-1.15.1-z6t7mfz7pezsyrktjyae42bj6v673hsi/spack-src
+cftime @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-cftime-1.0.3.4-qae4rlw7qvop2idzpcqm6dioox6zt7fs/spack-src
+charset-normalizer @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-charset-normalizer-3.3.0-rsxzmcizppoxz6quxsoyte2xy2zuggbn/spack-src
+cleo @ file:///tmp/build/80754af9/cleo_1605812027890/work
+click @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-click-8.1.7-5ucqhacus6inu7cst25tfy4blvrwbxsv/spack-src
+clikit @ file:///tmp/build/80754af9/clikit_1596900189978/work
+conda==4.12.0
+conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262147379/work
+contourpy @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-contourpy-1.0.7-r3r64wb4lqa6l7pksrrywfc6jdmyp3ya/spack-src
+crashtest @ file:///tmp/build/80754af9/crashtest_1599273562811/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1639414572950/work
+cycler @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-cycler-0.11.0-flpztsgo3ru7mx4sw62vsj5yv373lgw6/spack-src
+distlib @ file:///tmp/build/80754af9/distlib_1622544193819/work
+eccodes @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-eccodes-1.5.0-gj43cylbvifbphkbudam3zgdjmazkme4/spack-src
+et-xmlfile @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-et-xmlfile-1.0.1-wwstqcvt574tje6q4ol74nzqimwjxmir/spack-src
+f90nml @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-f90nml-1.4.3-eft2pa3ahyxva2zvrgfcmittl77m4zdu/spack-src
+filelock @ file:///opt/conda/conda-bld/filelock_1647002191454/work
+findlibs @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-findlibs-0.0.2-i6nxy5cjjuzcrww4o36b56kjqzqpojey/spack-src
+fonttools @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-fonttools-4.39.4-uidvpqnq7flllho2ez6lr7o4offri2qr/spack-src
+GDAL==3.8.3
+gitdb @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-gitdb-4.0.9-iqchvhdsjhpu4nryaq32i4kiqwfwuipb/spack-src
+GitPython @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-gitpython-3.1.40-sjwa3a5xfs6476zoxibwta3sl5rehmrw/spack-src
+gpsro_utils @ file:///gpfsm/dnb33/sicohen/workenv/gmao-utils
+h5py @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-h5py-3.8.0-gvzsxq4sxmiqzjsgwkyimrolyddva7h4/spack-src
+html5lib @ file:///Users/ktietz/demo/mc3/conda-bld/html5lib_1629144453894/work
+idna @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-idna-3.4-phjk4ppudyz6y22jiyjovyuchrdueydz/spack-src
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1638542770237/work
+jeepney @ file:///tmp/build/80754af9/jeepney_1627537048313/work
+Jinja2 @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-jinja2-3.0.3-2wlg4jhxska5zuxib4eggkxl6uk6532x/spack-src
+jmespath @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-jmespath-1.0.1-hrnqkjvdk47d5h77t5pgkep7uxlz4whx/spack-src
+jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
+keyring @ file:///tmp/build/80754af9/keyring_1615498285506/work
+kiwisolver @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-kiwisolver-1.4.5-lp7kpbcsncjwenjujp5y3kqaxmsohvzn/spack-src
+lockfile==0.12.2
+MarkupSafe @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-markupsafe-2.1.3-r567i6koetedy2mcxw5leyuhdan6pf4h/spack-src
+matplotlib @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-matplotlib-3.7.4-dwu3bviizky5cf3w3b7ym4hmvkg5zbu6/spack-src
+msgpack @ file:///tmp/build/80754af9/msgpack-python_1612287166301/work
+netCDF4 @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-netcdf4-1.5.8-ecbxuol5w6xez54dwhkljpxbwi35as7t/spack-src
+numexpr @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-numexpr-2.8.4-j5frbwjjotcyizalho4qqgtcijrwuldn/spack-src
+numpy @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-numpy-1.22.3-o4onuyp2ohnbolmbnmswrdv5fq6fie4g/spack-src
+openpyxl @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-openpyxl-3.1.2-t2zw2r4iot5hkk7lv75y2i4u4mzt3nyy/spack-src
+packaging @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-packaging-23.1-ry4g6otiym4f2xgpwuixjlrotctpgmju/spack-src
+pandas @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pandas-1.5.3-dmpuchsqo443rfrnlndomsgko6nnei25/spack-src
+pastel @ file:///tmp/build/80754af9/pastel_1600457269988/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+Pillow @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pillow-10.0.0-x6eormejfmc5i2stsoptqt77qbb2gdfx/spack-src
+pkgconfig @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pkgconfig-1.5.5-xeruvpd3eonhggjttncqt5qq7gvxb2qa/spack-src
+pkginfo @ file:///tmp/build/80754af9/pkginfo_1643162084911/work
+poetry @ file:///tmp/build/80754af9/poetry_1618437283890/work
+poetry-core @ file:///tmp/build/80754af9/poetry-core_1618088441164/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+py-ncepbufr==12.0.1
+pybind11 @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pybind11-2.11.0-tu6fnzgqcypqvq4sybujvdmdspfkiotk/spack-src
+pycodestyle @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pycodestyle-2.11.0-excr7vcbblpfd2cww5zy7gih5vcoecxx/spack-src
+pycosat==0.6.3
+pycparser @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pycparser-2.21-ju2dk3suerxeaoocdhkjkjd3yrjenbmn/spack-src
+pyhdf @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyhdf-0.10.4-isbd47k3ayze7j2iq34dd7artbueickr/spack-src
+pylev==1.3.0
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
+pyparsing @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyparsing-3.0.9-t3znahqetd7uf3c6gpa7zw3kr7f3maqr/spack-src
+pyproj @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyproj-3.6.0-5fojsxjhxs2jnkcj6zghprzwwyhrl7a3/spack-src
+pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1615493725485/work
+pyshp @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyshp-2.1.0-fqjhaazi5anwgsfvbvggirp74trtu2gy/spack-src
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-python-dateutil-2.8.2-6n6fpkqvwpoqlabaelycb7sea4lnjxpb/spack-src
+pytz @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pytz-2023.3-35qgtfn5qbrs337ltewk5f5luauzcmy2/spack-src
+pyxlsb @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyxlsb-1.0.10-ip4xdbczqattep7tgg6polnbq3sxcrgw/spack-src
+PyYAML @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-pyyaml-6.0-2mwizdt53ctkj3l4q6vjw6ffwrm5qfkf/spack-src
+requests @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-requests-2.31.0-ounnyehitpe36xwy3crhsifdvpdq5tiv/spack-src
+requests-toolbelt @ file:///Users/ktietz/demo/mc3/conda-bld/requests-toolbelt_1629456163440/work
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
+s3transfer @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-s3transfer-0.6.0-y7m6q7bd3tf7r6qtyuxxwegbbnnzpe4s/spack-src
+scipy @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-scipy-1.11.4-vxzv5gtkfo43ad6ics6nvcgjiqw3fbwk/spack-src
+SecretStorage @ file:///tmp/build/80754af9/secretstorage_1614022780358/work
+Shapely @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-shapely-1.8.0-qne7ihydrp6ztjsjl3gnmduphegyoge2/spack-src
+shellingham @ file:///Users/ktietz/demo/mc3/conda-bld/shellingham_1629144685686/work
+six @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-six-1.16.0-nsgrnbjqnwu2cwqbden32e7nnapxrbor/spack-src
+smmap @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-smmap-5.0.0-mr4vahctc4442rmtfhw4ojl6dsl6n4ea/spack-src
+tomlkit @ file:///opt/conda/conda-bld/tomlkit_1644481977758/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
+tzdata==2024.1
+urllib3 @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-urllib3-1.26.12-xqckvcc45ufs3ujt2uzwaijwnqu56tu4/spack-src
+virtualenv @ file:///tmp/build/80754af9/virtualenv_1620977681177/work
+webencodings==0.5.1
+xarray @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-xarray-2023.7.0-atl7p5q7ikvuatzobnyrwd6omhy2jhee/spack-src
+xlrd @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-xlrd-2.0.1-mqrfcpw3hzjhbq6zkzhuhj666u3adbyi/spack-src
+XlsxWriter @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-xlsxwriter-3.1.7-3khqgvr2gtcuzfk2pegtt6u7t4ckkgjj/spack-src
+xlwt @ file:///gpfsm/dswdev/jcsda/spack-stack/scu16/spack-stack-1.7.0/cache/build_stage/jedipara/spack-stage-py-xlwt-1.3.0-yq6nwrw6wi4nhezqon2bpbfydme7f6j7/spack-src
+zipp @ file:///opt/conda/conda-bld/zipp_1641824620731/work
