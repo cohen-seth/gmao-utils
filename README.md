@@ -12,6 +12,7 @@ $ git clone https://github.com/cohen-seth/gmao-utils.git
 
 2. Next, open and edit config_gmao_utils.sh *ONLY!* :
 ```sh
+$ cd gmao-utils
 $ vim config_gmao_utils.sh
 ```
 
