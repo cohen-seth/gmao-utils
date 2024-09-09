@@ -29,26 +29,33 @@ $ source config_gmao_utils.sh
 
 # Function examples
 
-## convert_bufr2ioda.py
+1. convert_bufr2ioda.py
 command structure: 
 ```sh
 $ python src/gpsro_utils/convert_bufr2ioda.py [PATH TO BUFR FILE(S)]
 ```
 The PATH you give can EITHER be a path to a directory containing BUFR files with NO TRAILING '/' --OR-- the full path to a singular BUFR file you wish to convert.
 
-## Example 
 ```sh
 $ python src/gpsro_utils/convert_bufr2ioda.py /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2022/M01
 ```
 
-## convert_ioda2df.py
+2. convert_ioda2df.py
 ```sh
 $ python src/gpsro_utils/convert_ioda2df.py [PATH OF IODA FILE(S)]
 ```
-## plot latitude counts by 5 degree bins
+
+3. plot latitude counts by 5 degree bins
 ```sh
 $ python src/gpsro_utils/plot_latitude_bins.py wrkdir/function-outputs/iodadir/GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.ioda.nc4
 ```
 
-## plot latitude counts by 5 degree bins by kx (~kx groups)
-python src/gpsro_utils/plot_latitude_bins_kx.py wrkdir/function-outputs/iodadir/GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.ioda.nc4
+4. plot latitude counts by 5 degree bins by kx (~kx groups)
+```sh
+$ python src/gpsro_utils/plot_latitude_bins_kx.py wrkdir/function-outputs/iodadir/GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.ioda.nc4
+```
+
+5. nceplibs_sinv.py
+```sh
+$ python src/bufr_utils/nceplibs_sinv.py /discover/nobackup/projects/gmao/input/dao_ops/obs/flk/ncep_g5obs/bufr/GPSRO/Y2020/M02/gdas1.200202.t00z.gpsro.tm00.bufr_d
+```
