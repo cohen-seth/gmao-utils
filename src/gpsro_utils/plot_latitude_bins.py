@@ -26,5 +26,5 @@ filename = filepath.split("/")[-1]
 fileparts = filename.split(".")
 figure_path = "wrkdir/figures/latitude_counts_" + ("_").join(fileparts[0:3]) + ".png" 
 plt.savefig(figure_path)
-
-plt.show() 
+print(f'Plot saved to: {figure_path}')
+#plt.show() 
