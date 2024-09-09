@@ -3,8 +3,12 @@ NASA/GMAO. Tools for working with  data files in both BUFR and IODA (JEDI) forma
 
 # Directory Structure (skeleton)
 
-# Step 1: Setting up your environment
-git clone https://github.com/cohen-seth/gmao-utils.git
+# Installation and Environment Setup
+
+1. Clone the gmao-utils repo.
+```sh
+$ git clone https://github.com/cohen-seth/gmao-utils.git
+```
 
 Next, you must change the variable 'gmao_utils_dir' in the config_gmao_utils.sh file. Change it to the path where you have cloned gmao-utils.
 
