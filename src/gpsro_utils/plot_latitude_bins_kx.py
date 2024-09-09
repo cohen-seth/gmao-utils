@@ -49,4 +49,4 @@ for kx in [cosmic,cosmic2,spire,metop,other]:
               fontweight = "bold")
     subprocess.run(['mkdir', '-p', 'wrkdir/figures'])
     plt.savefig(f'wrkdir/figures/Latitude_Counts_5_degree_bins_kx_test_{c}.png')
-    print((f'Plot(s) saved to: wrkdir/figures/Latitude_Counts_5_degree_bins_kx_test_{c}.png')
+    print(f'Plot(s) saved to: wrkdir/figures/Latitude_Counts_5_degree_bins_kx_test_{c}.png')
