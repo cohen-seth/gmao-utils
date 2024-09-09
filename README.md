@@ -37,6 +37,12 @@ $ python src/gpsro_utils/convert_bufr2ioda.py [PATH TO BUFR FILE(S)]
 ```
 The PATH you give can EITHER be a path to a directory containing BUFR files with NO TRAILING '/' --OR-- the full path to a singular BUFR file you wish to convert.
 
+Convert a single bufr file:
+```sh
+$ python src/gpsro_utils/convert_bufr2ioda.py /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.bufr_d
+```
+-- Or --
+Convert an entire directory of bufr files:
 ```sh
 $ python src/gpsro_utils/convert_bufr2ioda.py /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2022/M01
 ```
@@ -57,6 +63,7 @@ $ python src/gpsro_utils/plot_latitude_bins_kx.py wrkdir/function-outputs/iodadi
 ```
 
 5. nceplibs_sinv.py
+*NOTE:* NCEPLIBS-bufr is very picky. The current build of gmao-utils uses version: NCEPLIBS-bufr 12.0.0. It may not have Bufr Code Tables (i.e. definitions/reference tables) for newer satid's.
 ```sh
 $ python src/bufr_utils/nceplibs_sinv.py /discover/nobackup/projects/gmao/input/dao_ops/obs/flk/ncep_g5obs/bufr/GPSRO/Y2020/M02/gdas1.200202.t00z.gpsro.tm00.bufr_d
 ```
