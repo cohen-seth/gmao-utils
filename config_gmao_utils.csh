@@ -4,7 +4,7 @@
 # Seth Cohen (GMAO/SSAI)
 # Environment Requirements
 
-# EDIT THIS LINE ONLY (directory where you cloned gmao_utils):
+# EDIT THIS LINE ONLY:
 set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
 
 
@@ -12,12 +12,13 @@ set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
 # Load Jedi First ~ need ioda converters from IODACONV and PYIODA. 
 # ------------------------
 source $gmao_utils_dir/LoadJedi.csh
-source $gmao_utils_dir/load_nceplibs_bufr.sh
+source $gmao_utils_dir/load_nceplibs_bufr.csh
 
 # ------------------------
 # Create env variables and directories that gmao_utils uses
 # ------------------------
 # directory where gmao_utils is installed
+#set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils" # need to rerun this line from before b/c LoadJedi includes a purge.
 set gmao_utils_src = "$gmao_utils_dir/src"
 
 # directory with bufr files
@@ -27,11 +28,11 @@ set GPSRO_SPIRE_reanalysis = "/discover/nobackup/projects/gmao/geos-it/mchattop/
 set BufrTableC = "$gmao_utils_src/config_handlers/bufr-code-table-C-sinv-merge.csv"
 
 
-## 1.0: working directory path
+## 1.0: working directory path & output directories
 mkdir -p wrkdir/function-outputs/iodadir
+mkdir -p wrkdir/figures
 set wrkdir = "$gmao_utils_dir/wrkdir"
 set outdir = "$wrkdir/function-outputs" 
-## output directory
 set iodadir = "$outdir/iodadir" 
 
 ## 1.1: test input data
@@ -48,10 +49,12 @@ echo "gmao_utils_src="$gmao_utils_src
 echo "BufrTableC="$BufrTableC
 echo "wrkdir="$wrkdir
 echo "outdir="$outdir
+echo "iodadir="$iodadir
 echo "GPSRO_SPIRE_reanalysis="$GPSRO_SPIRE_reanalysis
 echo "\n"
 echo "--- NCEPLIBS ---"
-echo "NCEPLIBS_latest_build=" $NCEPLIBS_latest_build
+#echo "NCEPLIBS_latest_build=" $NCEPLIBS_latest_build
+echo "NCEPLIBS="$NCEPLIBSbuild
 echo "NCEPLIBS=" $NCEPLIBS
 echo "\n"
 

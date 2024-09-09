@@ -52,6 +52,7 @@ def nc_to_df(files_ioda):
         df = merge_bufr_code_table_c(df)
         ioda_subdir = iodadir + "/" + ("/").join(rootdir.split("/")[-3:])
         filename = ioda_subdir + "/" + i.split("/")[-1] + ".csv"
+        subprocess.run(['mkdir', '-p', 'ioda_subdir'])
         print(filename)
         df.to_csv(filename)
         #df_all = pd.concat([df_all,df])

@@ -4,6 +4,7 @@ import sys
 import numpy as np 
 from netCDF4 import Dataset
 import matplotlib.pyplot as plt
+import subprocess 
 
 # gmao_utils
 from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
@@ -47,6 +48,6 @@ for kx in [cosmic,cosmic2,spire,metop,other]:
     plt.title(f'Latitude Counts (5 degree bins)  \n kx: {kx}',
               fontweight = "bold")
     plt.show() 
-    #subprocess.run(['mkdir', '-p', 'wrkdir/figures'])
-    #plt.savefig('wrkdir/figures/Latitude_Counts_5_degree_bins_test.png')
+    subprocess.run(['mkdir', '-p', 'wrkdir/figures'])
+    plt.savefig(f'wrkdir/figures/Latitude_Counts_5_degree_bins_kx_test_{c}.png')
     #plt.show() 
