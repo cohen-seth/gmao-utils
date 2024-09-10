@@ -17,6 +17,7 @@ GPSRO_SPIRE_reanalysis = "/discover/nobackup/projects/gmao/geos-it/mchattop/GPSR
 # bufr code defenitions table
 BufrTableC = gmao_utils_dir+"/src/config_handlers/bufr-code-table-C-sinv-merge.csv"
 
+TestFileBufr = "/discover/nobackup/projects/gmao/input/dao_ops/obs/flk/ncep_g5obs/bufr/GPSRO/Y2020/M02/gdas1.200202.t00z.gpsro.tm00.bufr_d"
 
 ## 1.0: working directory path
 #mkdir -p wrkdir/function-outputs/iodadir
