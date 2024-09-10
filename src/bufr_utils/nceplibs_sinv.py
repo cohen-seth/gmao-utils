@@ -41,7 +41,7 @@ output = subprocess.run(
 )
 print(output.stdout)
 
-def sinv_cli(bufr_file):
+def sinv(bufr_file):
     # Call and Run the NCEPLIBS-bufr sinv util
     output = subprocess.run(
         ['sinv', bufr_file],
