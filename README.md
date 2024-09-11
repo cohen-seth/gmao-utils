@@ -26,6 +26,8 @@ $ source config_gmao_utils.sh
 ```
 6. Verify that wrkdir/function-outputs/iodadir exists.
 
+Important: You will need to run 'source config_gmao_utils.sh' every time you open a new session in order to load all the dependencies required to use gmao_utils. It will not overwrite any of your previous work. 
+
 7. Run the following examples. 
 
 # Function examples
