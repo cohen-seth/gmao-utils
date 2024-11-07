@@ -4,7 +4,7 @@ import pandas as pd
 import subprocess
 from discover_config import gmao_utils_dir,GPSRO_SPIRE_reanalysis,BufrTableC,wrkdir,outdir,iodadir
 from file_utils import get_file_list,merge_bufr_code_table_c
-from convert_ioda2df import nc_to_df
+from base_utils.convert_ioda2df import nc_to_df
 import numpy as np
 
 #from ioda_utils import get_meta_data,get_obs_value,get_obs_error,satellite_id_subset,lat_window_subset,get_variable

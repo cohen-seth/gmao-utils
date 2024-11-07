@@ -76,18 +76,5 @@ def sinv(bufr_file):
 
     return(lines_meta)    
 
-# Basic sinv to be used in the command line
-def sinv_cli_v1(bufr_file):
-    # User input: path to bufr file
-    # bufr_file = sys.argv[1]
-    # Call and Run the NCEPLIBS-bufr sinv util
-    output = subprocess.run(
-        ['sinv', bufr_file],
-        capture_output = True, # Python >= 3.7 only
-        text = True # Python >= 3.7 only
-    )
-    print(f' --- sinv output for: {bufr_file}')
-    print(output.stdout)
-    return(output.stdout)
 
 

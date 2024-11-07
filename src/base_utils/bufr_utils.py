@@ -7,7 +7,7 @@
 import subprocess
 import sys
 #import gpsro_tools_dependencies
-from config_nceplibs_cmds import validate_args,get_sat_id,get_sat_id_name,get_obs_count,get_sat_inst_id,get_sat_inst_dsc,get_line_type 
+from base_utils.config_nceplibs_cmds import validate_args,get_sat_id,get_sat_id_name,get_obs_count,get_sat_inst_id,get_sat_inst_dsc,get_line_type 
 
 #observation-inventory-utils/src/obs_inv_utils/nceplibs_cmd_sinv.py
 #from nceplibs_cmds_sinv import *
