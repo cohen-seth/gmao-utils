@@ -7,7 +7,7 @@ import click
 
 import gpsro_utils #obs_inv_utils
 import config_handlers
-from bufr_utils import sinv
+from base_utils import sinv
 
 @click.group()
 def cli():
