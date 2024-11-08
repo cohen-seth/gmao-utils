@@ -6,7 +6,7 @@
 
 # EDIT THIS LINE ONLY:
 set gmao_utils_dir = "/discover/nobackup/sicohen/workenv/gmao-utils"
-
+cp /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2023/M01/gdas1_spnasa.230101.t00z.gpsro.tm00.bufr_d src/tests/testinput/gdas1_spnasa.230101.t00z.gpsro.tm00.bufr_d
 
 # ------------------------
 # Load Jedi First ~ need ioda converters from IODACONV and PYIODA. 
