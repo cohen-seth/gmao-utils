@@ -41,12 +41,12 @@ The PATH you give can EITHER be a path to a directory containing BUFR files with
 
 Convert a single bufr file:
 ```sh
-$ python src/gpsro_utils/convert_bufr2ioda.py /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.bufr_d
+$ python src/gpsro_utils/convert_bufr2ioda.py .../GPSRO_final/Y2022/M01/gdas1_spnasa.220101.t00z.gpsro.tm00.bufr_d
 ```
 -- Or --
 Convert an entire directory of bufr files:
 ```sh
-$ python src/gpsro_utils/convert_bufr2ioda.py /discover/nobackup/projects/gmao/geos-it/mchattop/GPSRO_SPIRE_reanalysis/GPSRO_final/Y2022/M01
+$ python src/gpsro_utils/convert_bufr2ioda.py .../GPSRO_final/Y2022/M01
 ```
 
 2. convert_ioda2df.py
